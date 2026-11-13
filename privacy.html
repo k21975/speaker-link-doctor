@@ -10,9 +10,9 @@
 <main>
 <p class="crumb"><a href="./">Link Doctor for Sonos</a></p>
 <h1>Privacy Policy</h1>
-<p class="meta">Effective 22 October 2026</p>
+<p class="meta">Effective 13 November 2026</p>
 
-<p class="lead">Link Doctor for Sonos sends nothing about you or your home to its developer. It has no accounts, analytics, advertising or tracking.</p>
+<p class="lead">Link Doctor for Sonos sends nothing about you or your home to its developer unless you choose to email it. It has no accounts, analytics, advertising or tracking.</p>
 
 <h2>What the app reads</h2>
 <p>To diagnose a Sonos system, the app reads the speakers on your local network: room names, speaker models, network addresses, wireless signal readings, software versions and what is playing. It reads these directly from the speakers and keeps them on your device.</p>
@@ -23,12 +23,12 @@
 
 <h2>What is stored, and where</h2>
 <p>Sites you save, surveys you keep and the last reading of each site are stored on your device. If you are signed in to iCloud, they are also kept in your own private iCloud database so they appear on your other devices. That database belongs to your Apple Account. The developer cannot see it. You can stop this by turning off iCloud for the app in your device's settings.</p>
-<p>An optional webhook secret, if you set one, is kept in your device's keychain.</p>
 
 <h2>What leaves your device</h2>
 <ul>
-<li><strong>Software update check.</strong> The app asks one of your speakers which Sonos update file applies to it, downloads that public file from Sonos, and looks up the current version of the Sonos app on Apple's App Store. These requests contain nothing about your home. As with any web request, Sonos and Apple can see your device's IP address. You can turn this off under Settings, Check for updates.</li>
-<li><strong>Webhook, only if you set one.</strong> In Settings you can enter a web address to receive surveys. When you send a survey there, the app posts it, including room names, devices and network details, to that address over HTTPS, with your secret if you gave one. Nothing is sent unless you set this up. What happens to the data there is up to whoever runs that address.</li>
+<li><strong>Software update check.</strong> The app asks one of your speakers which Sonos update file applies to it, downloads that public file from Sonos, and looks up the current version of the Sonos app, and its icon, on Apple's App Store. These requests contain nothing about your home. As with any web request, Sonos and Apple can see your device's IP address. You can turn this off under Settings, Check for updates.</li>
+<li><strong>Cover art.</strong> To show what a room is playing, the app displays the track's cover art. Usually your speaker serves the picture itself. For some music services the speaker gives the address of the picture on that service's own servers instead, and the app loads it from there. That request asks only for the picture; as with any web request, the service can see your device's IP address.</li>
+<li><strong>Emails you choose to send.</strong> Email Support opens an email to the developer with the app's version, your device's model and, if you started from an error message, that message. Email Diagnostic Data, in a site's details, attaches what that site's speakers reported when it was last read: room names, speaker models, network addresses, serial numbers and settings. Nothing is sent unless you send the email yourself, from your own mail app. The developer uses what you send only to answer you and to fix the app, does not share it, and deletes diagnostic data once the problem it was sent for is resolved.</li>
 <li><strong>Reports you share.</strong> A survey report you export or share goes only where you send it.</li>
 </ul>
 
